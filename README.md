@@ -36,25 +36,3 @@ npm run dev
 
 Приложение: [http://localhost:5000](http://localhost:5000)
 Документация API: [http://localhost:5000/api/docs](http://localhost:5000/api/docs)
-
-## API эндпоинты
-
-| Метод | Путь | Описание |
-|---|---|---|
-| `GET` | `/api/products/` | Список товаров (фильтр: `?category=`, `?search=`) |
-| `GET` | `/api/products/{id}` | Товар по ID с характеристиками |
-| `GET` | `/api/products/categories/list` | Список уникальных категорий |
-| `POST` | `/api/orders/` | Создать заказ |
-| `GET` | `/api/orders/{id}` | Заказ по ID |
-| `GET` | `/api/health` | Проверка состояния сервера |
-| `GET` | `/api/docs` | Swagger UI (интерактивная документация) |
-
-## Маршруты фронтенда
-
-| Путь | Страница |
-|---|---|
-| `/` | Каталог товаров |
-| `/product/:id` | Страница товара |
-| `/cart` | Корзина |
-| `/checkout` | Оформление заказа |
-| `/order-confirmation` | Подтверждение заказа |
